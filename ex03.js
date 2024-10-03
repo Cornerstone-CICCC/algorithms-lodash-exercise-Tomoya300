@@ -4,6 +4,6 @@ const _ = require('lodash');
 
 const numbers = [1, 3, 5, 7, 9];
 
-// your code here
+const firstGreaterThanFive = _.find(numbers, (item) => item > 5)
 
 console.log(firstGreaterThanFive); // Expected output: 7
